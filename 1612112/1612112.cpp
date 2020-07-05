@@ -52,7 +52,7 @@ int main()
 		case 3:
 			cout << "XOA 1 PHONG" << endl;
 			cout << "Nhap ma phong can xoa: ";
-			cin.getline(rID, 3);
+			cin.getline(rID, 4);
 			XoaPhong(homestay, n, rID);
 			break;
 		case 4:

@@ -2,7 +2,7 @@
 
 istream& operator>>(istream& in, ROOM& r) {
 	cout << "Nhap ma phong: ";
-	in.getline(r.rID, 3);
+	in.getline(r.rID, 4);
 	cout << "Nhap dien tich phong co the su dung: ";
 	in >> r.usableArea;
 	cout << "Nhap so luong nguoi co the o: ";
